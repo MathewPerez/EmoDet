@@ -6,4 +6,5 @@ setup(
     description='API for BERT Model trained to detect emotions of text',
     author='Mathew Perez',
     license='Apache 2.0',
+    install_requires=['numpy', 'torch', 'transformers'],
 )
